@@ -16,6 +16,7 @@ int curX = 0;      // column of effect center
 int curY = 0;      // row of effect center
 int neighbors = 4; // area of effect
 
+
 void setup() {
   size(1280, 720, P2D);
   //rectMode(CENTER);
@@ -42,18 +43,11 @@ void draw() {
       pointx = pointx + margin;
       int distance = effectDistance(x,y);
       if ( distance <= neighbors)  {
-        //println("distance at " + x + "," + y + ": " + distance);
-        // TODO interpolate more smartly to effect limits
-        int newsize = 0;
-        if (distance == 0) {
-          newsize = minsize;
-        } else {
-          int decr = (regsize - minsize) / distance;
-          newsize = regsize - decr;
-          if (newsize < minsize) newsize = minsize;
-          //println("new size: " + newsize);
-          rect(pointx, pointy, newsize, newsize);
-        }
+        float lerpAmount = distance / neighbors;
+        int start = minsize;
+        int end = regsize;
+        float newsize = lerp(start, end, lerpAmount);
+        rect(pointx, pointy, newsize, newsize);
       } else {
         rect(pointx, pointy, regsize, regsize);
       }
