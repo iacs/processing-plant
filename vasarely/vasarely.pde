@@ -18,8 +18,9 @@ int neighbors = 4; // area of effect
 
 
 void setup() {
-  size(1280, 720, P2D);
-  //rectMode(CENTER);
+  //size(1280, 720, P2D);
+  size(500, 500, P2D);
+  rectMode(CENTER);
   columns = width / (regsize + margin);
   rows = height / (regsize + margin);
   println(columns + " columns and " + rows + " rows");
@@ -32,8 +33,8 @@ void setup() {
 }
 
 void draw() {
-  int pointx = 0;
-  int pointy = 0;
+  int pointx = margin;
+  int pointy = margin;
   
   background(bg);
   
@@ -53,7 +54,7 @@ void draw() {
       }
       pointx = pointx + regsize;
     }
-    pointx = 0;
+    pointx = margin;
     pointy = pointy + regsize;
   }
 }
