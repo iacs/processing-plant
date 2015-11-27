@@ -1,3 +1,5 @@
+import netP5.*;
+import oscP5.*;
 
 
 // Connies
@@ -12,8 +14,8 @@ int fg = 75;
 int columns = 0;
 int rows = 0;
 
-int curX = 0;      // column of effect center
-int curY = 0;      // row of effect center
+int curX;      // column of effect center
+int curY;      // row of effect center
 int neighbors = 4; // area of effect
 
 
@@ -27,9 +29,10 @@ void setup() {
   smooth();
   noStroke();
   fill(fg);
-  curX = 9;
-  curY = 15;
-  noLoop();
+  
+  //OSC stuff
+  int port = 8000;
+  OscP5 osc = new OscP5(this, port);
 }
 
 void draw() {
@@ -66,4 +69,29 @@ void draw() {
 */
 int effectDistance(int x, int y) {
   return max(abs(x - curX), abs(y - curY));
+}
+
+void oscEvent(OscMessage message) {
+  //println("pattern: " + message.addrPattern() + " : " + message.typetag());
+  //message.print();
+  
+  // Position
+  if (message.checkAddrPattern("/1/xy1") == true) {
+    float xpos, ypos;
+    xpos = message.get(0).floatValue();
+    ypos = message.get(1).floatValue();
+    
+    curX = int(map(xpos, 0, 100, 1, columns));
+    curY = int(map(ypos, 0, 100, 1, rows));
+    println("new xy: " + curX + "," + curY);
+  }
+  
+  // Strength
+  if (message.checkAddrPattern("/1/rotary1") == true) {
+    float strength;
+    strength = message.get(0).floatValue();
+    neighbors = int(map(strength, 0, 100, 0, min(columns, rows)));
+  }
+  
+  //if (message.checkAddrPattern() == true) {}
 }
