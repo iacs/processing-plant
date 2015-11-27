@@ -43,7 +43,7 @@ void draw() {
       pointx = pointx + margin;
       int distance = effectDistance(x,y);
       if ( distance <= neighbors)  {
-        float lerpAmount = distance / neighbors;
+        float lerpAmount = float(distance) / neighbors;
         int start = minsize;
         int end = regsize;
         float newsize = lerp(start, end, lerpAmount);
