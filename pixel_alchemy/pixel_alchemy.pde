@@ -68,7 +68,8 @@ void quartize() {
     loadedImg.filter(GRAY);
     loadedImg.filter(POSTERIZE, 3);
     loadedImg.loadPixels();
-    color[] colores = new color[5];
+    color[] colores = new color[0];
+    color[] replace = { #FF0000, #00FF00, #0000FF, #000000};
     color c;
     boolean exists = false;
     for (int i = 0; i < loadedImg.pixels.length; ++i) {
@@ -78,13 +79,17 @@ void quartize() {
             //println("c: "+hex(c)+" colorArr: "+hex(colores[j]));
             if (hex(c).equals(hex(colores[j]))) {
                 exists = true;
+                loadedImg.pixels[i] = replace[j];
                 break;
             }
         }
         if (!exists) {
             colores = append(colores, c);
             println("color: " + hex(c));
-            exists = false;
+            println("longitut: "+colores.length);
+            println("colores: "+hex(colores[colores.length - 1]));
+            loadedImg.pixels[i] = replace[colores.length -1];
         }
     }
+    loadedImg.updatePixels();
 }
