@@ -35,7 +35,7 @@ void setup() {
         strip.loadPixels();
         int step = 0;
         for (int j = 0; j < strip.pixels.length; j++) {
-            strip.pixels[j] = color(unhex(colors[step % 5]));
+            strip.pixels[j] = color(unhex("FF" + colors[step % 5]));
             if (j % 20 == 0) step++;
         }
         strip.updatePixels();
