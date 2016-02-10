@@ -1,0 +1,2993 @@
+{
+    "books": [
+        {
+          "name": "default",
+          "colors": [
+            {
+              "triplet": "5d8aa8",
+              "name": "Air Force blue"
+            },
+            {
+              "triplet": "f0f8ff",
+              "name": "Alice blue"
+            },
+            {
+              "triplet": "e32636",
+              "name": "Alizarin crimson"
+            },
+            {
+              "triplet": "efdecd",
+              "name": "Almond"
+            },
+            {
+              "triplet": "e52b50",
+              "name": "Amaranth"
+            },
+            {
+              "triplet": "ffbf00",
+              "name": "Amber"
+            },
+            {
+              "triplet": "ff033e",
+              "name": "American rose"
+            },
+            {
+              "triplet": "9966cc",
+              "name": "Amethyst"
+            },
+            {
+              "triplet": "a4c639",
+              "name": "Android Green"
+            },
+            {
+              "triplet": "f2f3f4",
+              "name": "Anti-flash white"
+            },
+            {
+              "triplet": "cd9575",
+              "name": "Antique brass"
+            },
+            {
+              "triplet": "915c83",
+              "name": "Antique fuchsia"
+            },
+            {
+              "triplet": "faebd7",
+              "name": "Antique white"
+            },
+            {
+              "triplet": "008000",
+              "name": "Ao"
+            },
+            {
+              "triplet": "8db600",
+              "name": "Apple green"
+            },
+            {
+              "triplet": "fbceb1",
+              "name": "Apricot"
+            },
+            {
+              "triplet": "00ffff",
+              "name": "Aqua"
+            },
+            {
+              "triplet": "7fffd4",
+              "name": "Aquamarine"
+            },
+            {
+              "triplet": "4b5320",
+              "name": "Army green"
+            },
+            {
+              "triplet": "e9d66b",
+              "name": "Arylide yellow"
+            },
+            {
+              "triplet": "b2beb5",
+              "name": "Ash grey"
+            },
+            {
+              "triplet": "87a96b",
+              "name": "Asparagus"
+            },
+            {
+              "triplet": "ff9966",
+              "name": "Atomic tangerine"
+            },
+            {
+              "triplet": "a52a2a",
+              "name": "Auburn"
+            },
+            {
+              "triplet": "fdee00",
+              "name": "Aureolin"
+            },
+            {
+              "triplet": "6e7f80",
+              "name": "AuroMetalSaurus"
+            },
+            {
+              "triplet": "ff2052",
+              "name": "Awesome"
+            },
+            {
+              "triplet": "007fff",
+              "name": "Azure"
+            },
+            {
+              "triplet": "f0ffff",
+              "name": "Azure mist/web"
+            },
+            {
+              "triplet": "89cff0",
+              "name": "Baby blue"
+            },
+            {
+              "triplet": "a1caf1",
+              "name": "Baby blue eyes"
+            },
+            {
+              "triplet": "f4c2c2",
+              "name": "Baby pink"
+            },
+            {
+              "triplet": "21abcd",
+              "name": "Ball Blue"
+            },
+            {
+              "triplet": "fae7b5",
+              "name": "Banana Mania"
+            },
+            {
+              "triplet": "ffe135",
+              "name": "Banana yellow"
+            },
+            {
+              "triplet": "848482",
+              "name": "Battleship grey"
+            },
+            {
+              "triplet": "98777b",
+              "name": "Bazaar"
+            },
+            {
+              "triplet": "bcd4e6",
+              "name": "Beau blue"
+            },
+            {
+              "triplet": "9f8170",
+              "name": "Beaver"
+            },
+            {
+              "triplet": "f5f5dc",
+              "name": "Beige"
+            },
+            {
+              "triplet": "ffe4c4",
+              "name": "Bisque"
+            },
+            {
+              "triplet": "3d2b1f",
+              "name": "Bistre"
+            },
+            {
+              "triplet": "fe6f5e",
+              "name": "Bittersweet"
+            },
+            {
+              "triplet": "000000",
+              "name": "Black"
+            },
+            {
+              "triplet": "ffebcd",
+              "name": "Blanched Almond"
+            },
+            {
+              "triplet": "318ce7",
+              "name": "Bleu de France"
+            },
+            {
+              "triplet": "ace5ee",
+              "name": "Blizzard Blue"
+            },
+            {
+              "triplet": "faf0be",
+              "name": "Blond"
+            },
+            {
+              "triplet": "0000ff",
+              "name": "Blue"
+            },
+            {
+              "triplet": "a2a2d0",
+              "name": "Blue Bell"
+            },
+            {
+              "triplet": "6699cc",
+              "name": "Blue Gray"
+            },
+            {
+              "triplet": "0d98ba",
+              "name": "Blue green"
+            },
+            {
+              "triplet": "8a2be2",
+              "name": "Blue purple"
+            },
+            {
+              "triplet": "8a2be2",
+              "name": "Blue violet"
+            },
+            {
+              "triplet": "de5d83",
+              "name": "Blush"
+            },
+            {
+              "triplet": "79443b",
+              "name": "Bole"
+            },
+            {
+              "triplet": "0095b6",
+              "name": "Bondi blue"
+            },
+            {
+              "triplet": "e3dac9",
+              "name": "Bone"
+            },
+            {
+              "triplet": "cc0000",
+              "name": "Boston University Red"
+            },
+            {
+              "triplet": "006a4e",
+              "name": "Bottle green"
+            },
+            {
+              "triplet": "873260",
+              "name": "Boysenberry"
+            },
+            {
+              "triplet": "0070ff",
+              "name": "Brandeis blue"
+            },
+            {
+              "triplet": "b5a642",
+              "name": "Brass"
+            },
+            {
+              "triplet": "cb4154",
+              "name": "Brick red"
+            },
+            {
+              "triplet": "1dacd6",
+              "name": "Bright cerulean"
+            },
+            {
+              "triplet": "66ff00",
+              "name": "Bright green"
+            },
+            {
+              "triplet": "bf94e4",
+              "name": "Bright lavender"
+            },
+            {
+              "triplet": "c32148",
+              "name": "Bright maroon"
+            },
+            {
+              "triplet": "ff007f",
+              "name": "Bright pink"
+            },
+            {
+              "triplet": "08e8de",
+              "name": "Bright turquoise"
+            },
+            {
+              "triplet": "d19fe8",
+              "name": "Bright ube"
+            },
+            {
+              "triplet": "f4bbff",
+              "name": "Brilliant lavender"
+            },
+            {
+              "triplet": "ff55a3",
+              "name": "Brilliant rose"
+            },
+            {
+              "triplet": "fb607f",
+              "name": "Brink pink"
+            },
+            {
+              "triplet": "004225",
+              "name": "British racing green"
+            },
+            {
+              "triplet": "cd7f32",
+              "name": "Bronze"
+            },
+            {
+              "triplet": "a52a2a",
+              "name": "Brown"
+            },
+            {
+              "triplet": "ffc1cc",
+              "name": "Bubble gum"
+            },
+            {
+              "triplet": "e7feff",
+              "name": "Bubbles"
+            },
+            {
+              "triplet": "f0dc82",
+              "name": "Buff"
+            },
+            {
+              "triplet": "480607",
+              "name": "Bulgarian rose"
+            },
+            {
+              "triplet": "800020",
+              "name": "Burgundy"
+            },
+            {
+              "triplet": "deb887",
+              "name": "Burlywood"
+            },
+            {
+              "triplet": "cc5500",
+              "name": "Burnt orange"
+            },
+            {
+              "triplet": "e97451",
+              "name": "Burnt sienna"
+            },
+            {
+              "triplet": "8a3324",
+              "name": "Burnt umber"
+            },
+            {
+              "triplet": "bd33a4",
+              "name": "Byzantine"
+            },
+            {
+              "triplet": "702963",
+              "name": "Byzantium"
+            },
+            {
+              "triplet": "007aa5",
+              "name": "CG Blue"
+            },
+            {
+              "triplet": "e03c31",
+              "name": "CG Red"
+            },
+            {
+              "triplet": "536872",
+              "name": "Cadet"
+            },
+            {
+              "triplet": "5f9ea0",
+              "name": "Cadet blue"
+            },
+            {
+              "triplet": "91a3b0",
+              "name": "Cadet grey"
+            },
+            {
+              "triplet": "006b3c",
+              "name": "Cadmium green"
+            },
+            {
+              "triplet": "ed872d",
+              "name": "Cadmium orange"
+            },
+            {
+              "triplet": "e30022",
+              "name": "Cadmium red"
+            },
+            {
+              "triplet": "fff600",
+              "name": "Cadmium yellow"
+            },
+            {
+              "triplet": "a67b5b",
+              "name": "Café au lait"
+            },
+            {
+              "triplet": "4b3621",
+              "name": "Café noir"
+            },
+            {
+              "triplet": "1e4d2b",
+              "name": "Cal Poly Pomona green"
+            },
+            {
+              "triplet": "a3c1ad",
+              "name": "Cambridge Blue"
+            },
+            {
+              "triplet": "c19a6b",
+              "name": "Camel"
+            },
+            {
+              "triplet": "78866b",
+              "name": "Camouflage green"
+            },
+            {
+              "triplet": "ffff99",
+              "name": "Canary"
+            },
+            {
+              "triplet": "ffef00",
+              "name": "Canary yellow"
+            },
+            {
+              "triplet": "ff0800",
+              "name": "Candy apple red"
+            },
+            {
+              "triplet": "e4717a",
+              "name": "Candy pink"
+            },
+            {
+              "triplet": "00bfff",
+              "name": "Capri"
+            },
+            {
+              "triplet": "592720",
+              "name": "Caput mortuum"
+            },
+            {
+              "triplet": "c41e3a",
+              "name": "Cardinal"
+            },
+            {
+              "triplet": "00cc99",
+              "name": "Caribbean green"
+            },
+            {
+              "triplet": "ff0040",
+              "name": "Carmine"
+            },
+            {
+              "triplet": "eb4c42",
+              "name": "Carmine pink"
+            },
+            {
+              "triplet": "ff0038",
+              "name": "Carmine red"
+            },
+            {
+              "triplet": "ffa6c9",
+              "name": "Carnation pink"
+            },
+            {
+              "triplet": "b31b1b",
+              "name": "Carnelian"
+            },
+            {
+              "triplet": "99badd",
+              "name": "Carolina blue"
+            },
+            {
+              "triplet": "ed9121",
+              "name": "Carrot orange"
+            },
+            {
+              "triplet": "ace1af",
+              "name": "Celadon"
+            },
+            {
+              "triplet": "b2ffff",
+              "name": "Celeste"
+            },
+            {
+              "triplet": "4997d0",
+              "name": "Celestial blue"
+            },
+            {
+              "triplet": "de3163",
+              "name": "Cerise"
+            },
+            {
+              "triplet": "ec3b83",
+              "name": "Cerise pink"
+            },
+            {
+              "triplet": "007ba7",
+              "name": "Cerulean"
+            },
+            {
+              "triplet": "2a52be",
+              "name": "Cerulean blue"
+            },
+            {
+              "triplet": "a0785a",
+              "name": "Chamoisee"
+            },
+            {
+              "triplet": "fad6a5",
+              "name": "Champagne"
+            },
+            {
+              "triplet": "36454f",
+              "name": "Charcoal"
+            },
+            {
+              "triplet": "7fff00",
+              "name": "Chartreuse"
+            },
+            {
+              "triplet": "de3163",
+              "name": "Cherry"
+            },
+            {
+              "triplet": "ffb7c5",
+              "name": "Cherry blossom pink"
+            },
+            {
+              "triplet": "cd5c5c",
+              "name": "Chestnut"
+            },
+            {
+              "triplet": "d2691e",
+              "name": "Chocolate"
+            },
+            {
+              "triplet": "ffa700",
+              "name": "Chrome yellow"
+            },
+            {
+              "triplet": "98817b",
+              "name": "Cinereous"
+            },
+            {
+              "triplet": "e34234",
+              "name": "Cinnabar"
+            },
+            {
+              "triplet": "d2691e",
+              "name": "Cinnamon"
+            },
+            {
+              "triplet": "e4d00a",
+              "name": "Citrine"
+            },
+            {
+              "triplet": "fbcce7",
+              "name": "Classic rose"
+            },
+            {
+              "triplet": "0047ab",
+              "name": "Cobalt"
+            },
+            {
+              "triplet": "d2691e",
+              "name": "Cocoa brown"
+            },
+            {
+              "triplet": "6f4e37",
+              "name": "Coffee"
+            },
+            {
+              "triplet": "9bddff",
+              "name": "Columbia blue"
+            },
+            {
+              "triplet": "002e63",
+              "name": "Cool black"
+            },
+            {
+              "triplet": "8c92ac",
+              "name": "Cool grey"
+            },
+            {
+              "triplet": "b87333",
+              "name": "Copper"
+            },
+            {
+              "triplet": "996666",
+              "name": "Copper rose"
+            },
+            {
+              "triplet": "ff3800",
+              "name": "Coquelicot"
+            },
+            {
+              "triplet": "ff7f50",
+              "name": "Coral"
+            },
+            {
+              "triplet": "f88379",
+              "name": "Coral pink"
+            },
+            {
+              "triplet": "ff4040",
+              "name": "Coral red"
+            },
+            {
+              "triplet": "893f45",
+              "name": "Cordovan"
+            },
+            {
+              "triplet": "fbec5d",
+              "name": "Corn"
+            },
+            {
+              "triplet": "b31b1b",
+              "name": "Cornell Red"
+            },
+            {
+              "triplet": "9aceeb",
+              "name": "Cornflower"
+            },
+            {
+              "triplet": "6495ed",
+              "name": "Cornflower blue"
+            },
+            {
+              "triplet": "fff8dc",
+              "name": "Cornsilk"
+            },
+            {
+              "triplet": "fff8e7",
+              "name": "Cosmic latte"
+            },
+            {
+              "triplet": "ffbcd9",
+              "name": "Cotton candy"
+            },
+            {
+              "triplet": "fffdd0",
+              "name": "Cream"
+            },
+            {
+              "triplet": "dc143c",
+              "name": "Crimson"
+            },
+            {
+              "triplet": "990000",
+              "name": "Crimson Red"
+            },
+            {
+              "triplet": "be0032",
+              "name": "Crimson glory"
+            },
+            {
+              "triplet": "00ffff",
+              "name": "Cyan"
+            },
+            {
+              "triplet": "ffff31",
+              "name": "Daffodil"
+            },
+            {
+              "triplet": "f0e130",
+              "name": "Dandelion"
+            },
+            {
+              "triplet": "00008b",
+              "name": "Dark blue"
+            },
+            {
+              "triplet": "654321",
+              "name": "Dark brown"
+            },
+            {
+              "triplet": "5d3954",
+              "name": "Dark byzantium"
+            },
+            {
+              "triplet": "a40000",
+              "name": "Dark candy apple red"
+            },
+            {
+              "triplet": "08457e",
+              "name": "Dark cerulean"
+            },
+            {
+              "triplet": "986960",
+              "name": "Dark chestnut"
+            },
+            {
+              "triplet": "cd5b45",
+              "name": "Dark coral"
+            },
+            {
+              "triplet": "008b8b",
+              "name": "Dark cyan"
+            },
+            {
+              "triplet": "536878",
+              "name": "Dark electric blue"
+            },
+            {
+              "triplet": "b8860b",
+              "name": "Dark goldenrod"
+            },
+            {
+              "triplet": "a9a9a9",
+              "name": "Dark gray"
+            },
+            {
+              "triplet": "013220",
+              "name": "Dark green"
+            },
+            {
+              "triplet": "1a2421",
+              "name": "Dark jungle green"
+            },
+            {
+              "triplet": "bdb76b",
+              "name": "Dark khaki"
+            },
+            {
+              "triplet": "483c32",
+              "name": "Dark lava"
+            },
+            {
+              "triplet": "734f96",
+              "name": "Dark lavender"
+            },
+            {
+              "triplet": "8b008b",
+              "name": "Dark magenta"
+            },
+            {
+              "triplet": "003366",
+              "name": "Dark midnight blue"
+            },
+            {
+              "triplet": "556b2f",
+              "name": "Dark olive green"
+            },
+            {
+              "triplet": "ff8c00",
+              "name": "Dark orange"
+            },
+            {
+              "triplet": "9932cc",
+              "name": "Dark orchid"
+            },
+            {
+              "triplet": "779ecb",
+              "name": "Dark pastel blue"
+            },
+            {
+              "triplet": "03c03c",
+              "name": "Dark pastel green"
+            },
+            {
+              "triplet": "966fd6",
+              "name": "Dark pastel purple"
+            },
+            {
+              "triplet": "c23b22",
+              "name": "Dark pastel red"
+            },
+            {
+              "triplet": "e75480",
+              "name": "Dark pink"
+            },
+            {
+              "triplet": "003399",
+              "name": "Dark powder blue"
+            },
+            {
+              "triplet": "872657",
+              "name": "Dark raspberry"
+            },
+            {
+              "triplet": "8b0000",
+              "name": "Dark red"
+            },
+            {
+              "triplet": "e9967a",
+              "name": "Dark salmon"
+            },
+            {
+              "triplet": "560319",
+              "name": "Dark scarlet"
+            },
+            {
+              "triplet": "8fbc8f",
+              "name": "Dark sea green"
+            },
+            {
+              "triplet": "3c1414",
+              "name": "Dark sienna"
+            },
+            {
+              "triplet": "483d8b",
+              "name": "Dark slate blue"
+            },
+            {
+              "triplet": "2f4f4f",
+              "name": "Dark slate gray"
+            },
+            {
+              "triplet": "177245",
+              "name": "Dark spring green"
+            },
+            {
+              "triplet": "918151",
+              "name": "Dark tan"
+            },
+            {
+              "triplet": "ffa812",
+              "name": "Dark tangerine"
+            },
+            {
+              "triplet": "483c32",
+              "name": "Dark taupe"
+            },
+            {
+              "triplet": "cc4e5c",
+              "name": "Dark terra cotta"
+            },
+            {
+              "triplet": "00ced1",
+              "name": "Dark turquoise"
+            },
+            {
+              "triplet": "9400d3",
+              "name": "Dark violet"
+            },
+            {
+              "triplet": "00693e",
+              "name": "Dartmouth green"
+            },
+            {
+              "triplet": "555555",
+              "name": "Davy grey"
+            },
+            {
+              "triplet": "d70a53",
+              "name": "Debian red"
+            },
+            {
+              "triplet": "a9203e",
+              "name": "Deep carmine"
+            },
+            {
+              "triplet": "ef3038",
+              "name": "Deep carmine pink"
+            },
+            {
+              "triplet": "e9692c",
+              "name": "Deep carrot orange"
+            },
+            {
+              "triplet": "da3287",
+              "name": "Deep cerise"
+            },
+            {
+              "triplet": "fad6a5",
+              "name": "Deep champagne"
+            },
+            {
+              "triplet": "b94e48",
+              "name": "Deep chestnut"
+            },
+            {
+              "triplet": "704241",
+              "name": "Deep coffee"
+            },
+            {
+              "triplet": "c154c1",
+              "name": "Deep fuchsia"
+            },
+            {
+              "triplet": "004b49",
+              "name": "Deep jungle green"
+            },
+            {
+              "triplet": "9955bb",
+              "name": "Deep lilac"
+            },
+            {
+              "triplet": "cc00cc",
+              "name": "Deep magenta"
+            },
+            {
+              "triplet": "ffcba4",
+              "name": "Deep peach"
+            },
+            {
+              "triplet": "ff1493",
+              "name": "Deep pink"
+            },
+            {
+              "triplet": "ff9933",
+              "name": "Deep saffron"
+            },
+            {
+              "triplet": "00bfff",
+              "name": "Deep sky blue"
+            },
+            {
+              "triplet": "1560bd",
+              "name": "Denim"
+            },
+            {
+              "triplet": "c19a6b",
+              "name": "Desert"
+            },
+            {
+              "triplet": "edc9af",
+              "name": "Desert sand"
+            },
+            {
+              "triplet": "696969",
+              "name": "Dim gray"
+            },
+            {
+              "triplet": "1e90ff",
+              "name": "Dodger blue"
+            },
+            {
+              "triplet": "d71868",
+              "name": "Dogwood rose"
+            },
+            {
+              "triplet": "85bb65",
+              "name": "Dollar bill"
+            },
+            {
+              "triplet": "967117",
+              "name": "Drab"
+            },
+            {
+              "triplet": "00009c",
+              "name": "Duke blue"
+            },
+            {
+              "triplet": "e1a95f",
+              "name": "Earth yellow"
+            },
+            {
+              "triplet": "c2b280",
+              "name": "Ecru"
+            },
+            {
+              "triplet": "614051",
+              "name": "Eggplant"
+            },
+            {
+              "triplet": "f0ead6",
+              "name": "Eggshell"
+            },
+            {
+              "triplet": "1034a6",
+              "name": "Egyptian blue"
+            },
+            {
+              "triplet": "7df9ff",
+              "name": "Electric blue"
+            },
+            {
+              "triplet": "ff003f",
+              "name": "Electric crimson"
+            },
+            {
+              "triplet": "00ffff",
+              "name": "Electric cyan"
+            },
+            {
+              "triplet": "00ff00",
+              "name": "Electric green"
+            },
+            {
+              "triplet": "6f00ff",
+              "name": "Electric indigo"
+            },
+            {
+              "triplet": "f4bbff",
+              "name": "Electric lavender"
+            },
+            {
+              "triplet": "ccff00",
+              "name": "Electric lime"
+            },
+            {
+              "triplet": "bf00ff",
+              "name": "Electric purple"
+            },
+            {
+              "triplet": "3f00ff",
+              "name": "Electric ultramarine"
+            },
+            {
+              "triplet": "8f00ff",
+              "name": "Electric violet"
+            },
+            {
+              "triplet": "ffff00",
+              "name": "Electric yellow"
+            },
+            {
+              "triplet": "50c878",
+              "name": "Emerald"
+            },
+            {
+              "triplet": "96c8a2",
+              "name": "Eton blue"
+            },
+            {
+              "triplet": "c19a6b",
+              "name": "Fallow"
+            },
+            {
+              "triplet": "801818",
+              "name": "Falu red"
+            },
+            {
+              "triplet": "ff00ff",
+              "name": "Famous"
+            },
+            {
+              "triplet": "b53389",
+              "name": "Fandango"
+            },
+            {
+              "triplet": "f400a1",
+              "name": "Fashion fuchsia"
+            },
+            {
+              "triplet": "e5aa70",
+              "name": "Fawn"
+            },
+            {
+              "triplet": "4d5d53",
+              "name": "Feldgrau"
+            },
+            {
+              "triplet": "71bc78",
+              "name": "Fern"
+            },
+            {
+              "triplet": "4f7942",
+              "name": "Fern green"
+            },
+            {
+              "triplet": "ff2800",
+              "name": "Ferrari Red"
+            },
+            {
+              "triplet": "6c541e",
+              "name": "Field drab"
+            },
+            {
+              "triplet": "ce2029",
+              "name": "Fire engine red"
+            },
+            {
+              "triplet": "b22222",
+              "name": "Firebrick"
+            },
+            {
+              "triplet": "e25822",
+              "name": "Flame"
+            },
+            {
+              "triplet": "fc8eac",
+              "name": "Flamingo pink"
+            },
+            {
+              "triplet": "f7e98e",
+              "name": "Flavescent"
+            },
+            {
+              "triplet": "eedc82",
+              "name": "Flax"
+            },
+            {
+              "triplet": "fffaf0",
+              "name": "Floral white"
+            },
+            {
+              "triplet": "ffbf00",
+              "name": "Fluorescent orange"
+            },
+            {
+              "triplet": "ff1493",
+              "name": "Fluorescent pink"
+            },
+            {
+              "triplet": "ccff00",
+              "name": "Fluorescent yellow"
+            },
+            {
+              "triplet": "ff004f",
+              "name": "Folly"
+            },
+            {
+              "triplet": "228b22",
+              "name": "Forest green"
+            },
+            {
+              "triplet": "a67b5b",
+              "name": "French beige"
+            },
+            {
+              "triplet": "0072bb",
+              "name": "French blue"
+            },
+            {
+              "triplet": "86608e",
+              "name": "French lilac"
+            },
+            {
+              "triplet": "f64a8a",
+              "name": "French rose"
+            },
+            {
+              "triplet": "ff00ff",
+              "name": "Fuchsia"
+            },
+            {
+              "triplet": "ff77ff",
+              "name": "Fuchsia pink"
+            },
+            {
+              "triplet": "e48400",
+              "name": "Fulvous"
+            },
+            {
+              "triplet": "cc6666",
+              "name": "Fuzzy Wuzzy"
+            },
+            {
+              "triplet": "dcdcdc",
+              "name": "Gainsboro"
+            },
+            {
+              "triplet": "e49b0f",
+              "name": "Gamboge"
+            },
+            {
+              "triplet": "f8f8ff",
+              "name": "Ghost white"
+            },
+            {
+              "triplet": "b06500",
+              "name": "Ginger"
+            },
+            {
+              "triplet": "6082b6",
+              "name": "Glaucous"
+            },
+            {
+              "triplet": "e6e8fa",
+              "name": "Glitter"
+            },
+            {
+              "triplet": "ffd700",
+              "name": "Gold"
+            },
+            {
+              "triplet": "996515",
+              "name": "Golden brown"
+            },
+            {
+              "triplet": "fcc200",
+              "name": "Golden poppy"
+            },
+            {
+              "triplet": "ffdf00",
+              "name": "Golden yellow"
+            },
+            {
+              "triplet": "daa520",
+              "name": "Goldenrod"
+            },
+            {
+              "triplet": "a8e4a0",
+              "name": "Granny Smith Apple"
+            },
+            {
+              "triplet": "808080",
+              "name": "Gray"
+            },
+            {
+              "triplet": "465945",
+              "name": "Gray asparagus"
+            },
+            {
+              "triplet": "00ff00",
+              "name": "Green"
+            },
+            {
+              "triplet": "1164b4",
+              "name": "Green Blue"
+            },
+            {
+              "triplet": "adff2f",
+              "name": "Green yellow"
+            },
+            {
+              "triplet": "a99a86",
+              "name": "Grullo"
+            },
+            {
+              "triplet": "00ff7f",
+              "name": "Guppie green"
+            },
+            {
+              "triplet": "663854",
+              "name": "Halayà úbe"
+            },
+            {
+              "triplet": "446ccf",
+              "name": "Han blue"
+            },
+            {
+              "triplet": "5218fa",
+              "name": "Han purple"
+            },
+            {
+              "triplet": "e9d66b",
+              "name": "Hansa yellow"
+            },
+            {
+              "triplet": "3fff00",
+              "name": "Harlequin"
+            },
+            {
+              "triplet": "c90016",
+              "name": "Harvard crimson"
+            },
+            {
+              "triplet": "da9100",
+              "name": "Harvest Gold"
+            },
+            {
+              "triplet": "808000",
+              "name": "Heart Gold"
+            },
+            {
+              "triplet": "df73ff",
+              "name": "Heliotrope"
+            },
+            {
+              "triplet": "f400a1",
+              "name": "Hollywood cerise"
+            },
+            {
+              "triplet": "f0fff0",
+              "name": "Honeydew"
+            },
+            {
+              "triplet": "49796b",
+              "name": "Hooker green"
+            },
+            {
+              "triplet": "ff1dce",
+              "name": "Hot magenta"
+            },
+            {
+              "triplet": "ff69b4",
+              "name": "Hot pink"
+            },
+            {
+              "triplet": "355e3b",
+              "name": "Hunter green"
+            },
+            {
+              "triplet": "fcf75e",
+              "name": "Icterine"
+            },
+            {
+              "triplet": "b2ec5d",
+              "name": "Inchworm"
+            },
+            {
+              "triplet": "138808",
+              "name": "India green"
+            },
+            {
+              "triplet": "cd5c5c",
+              "name": "Indian red"
+            },
+            {
+              "triplet": "e3a857",
+              "name": "Indian yellow"
+            },
+            {
+              "triplet": "4b0082",
+              "name": "Indigo"
+            },
+            {
+              "triplet": "002fa7",
+              "name": "International Klein Blue"
+            },
+            {
+              "triplet": "ff4f00",
+              "name": "International orange"
+            },
+            {
+              "triplet": "5a4fcf",
+              "name": "Iris"
+            },
+            {
+              "triplet": "f4f0ec",
+              "name": "Isabelline"
+            },
+            {
+              "triplet": "009000",
+              "name": "Islamic green"
+            },
+            {
+              "triplet": "fffff0",
+              "name": "Ivory"
+            },
+            {
+              "triplet": "00a86b",
+              "name": "Jade"
+            },
+            {
+              "triplet": "f8de7e",
+              "name": "Jasmine"
+            },
+            {
+              "triplet": "d73b3e",
+              "name": "Jasper"
+            },
+            {
+              "triplet": "a50b5e",
+              "name": "Jazzberry jam"
+            },
+            {
+              "triplet": "fada5e",
+              "name": "Jonquil"
+            },
+            {
+              "triplet": "bdda57",
+              "name": "June bud"
+            },
+            {
+              "triplet": "29ab87",
+              "name": "Jungle green"
+            },
+            {
+              "triplet": "e8000d",
+              "name": "KU Crimson"
+            },
+            {
+              "triplet": "4cbb17",
+              "name": "Kelly green"
+            },
+            {
+              "triplet": "c3b091",
+              "name": "Khaki"
+            },
+            {
+              "triplet": "087830",
+              "name": "La Salle Green"
+            },
+            {
+              "triplet": "d6cadd",
+              "name": "Languid lavender"
+            },
+            {
+              "triplet": "26619c",
+              "name": "Lapis lazuli"
+            },
+            {
+              "triplet": "fefe22",
+              "name": "Laser Lemon"
+            },
+            {
+              "triplet": "a9ba9d",
+              "name": "Laurel green"
+            },
+            {
+              "triplet": "cf1020",
+              "name": "Lava"
+            },
+            {
+              "triplet": "e6e6fa",
+              "name": "Lavender"
+            },
+            {
+              "triplet": "ccccff",
+              "name": "Lavender blue"
+            },
+            {
+              "triplet": "fff0f5",
+              "name": "Lavender blush"
+            },
+            {
+              "triplet": "c4c3d0",
+              "name": "Lavender gray"
+            },
+            {
+              "triplet": "9457eb",
+              "name": "Lavender indigo"
+            },
+            {
+              "triplet": "ee82ee",
+              "name": "Lavender magenta"
+            },
+            {
+              "triplet": "e6e6fa",
+              "name": "Lavender mist"
+            },
+            {
+              "triplet": "fbaed2",
+              "name": "Lavender pink"
+            },
+            {
+              "triplet": "967bb6",
+              "name": "Lavender purple"
+            },
+            {
+              "triplet": "fba0e3",
+              "name": "Lavender rose"
+            },
+            {
+              "triplet": "7cfc00",
+              "name": "Lawn green"
+            },
+            {
+              "triplet": "fff700",
+              "name": "Lemon"
+            },
+            {
+              "triplet": "fff44f",
+              "name": "Lemon Yellow"
+            },
+            {
+              "triplet": "fffacd",
+              "name": "Lemon chiffon"
+            },
+            {
+              "triplet": "bfff00",
+              "name": "Lemon lime"
+            },
+            {
+              "triplet": "f56991",
+              "name": "Light Crimson"
+            },
+            {
+              "triplet": "e68fac",
+              "name": "Light Thulian pink"
+            },
+            {
+              "triplet": "fdd5b1",
+              "name": "Light apricot"
+            },
+            {
+              "triplet": "add8e6",
+              "name": "Light blue"
+            },
+            {
+              "triplet": "b5651d",
+              "name": "Light brown"
+            },
+            {
+              "triplet": "e66771",
+              "name": "Light carmine pink"
+            },
+            {
+              "triplet": "f08080",
+              "name": "Light coral"
+            },
+            {
+              "triplet": "93ccea",
+              "name": "Light cornflower blue"
+            },
+            {
+              "triplet": "e0ffff",
+              "name": "Light cyan"
+            },
+            {
+              "triplet": "f984ef",
+              "name": "Light fuchsia pink"
+            },
+            {
+              "triplet": "fafad2",
+              "name": "Light goldenrod yellow"
+            },
+            {
+              "triplet": "d3d3d3",
+              "name": "Light gray"
+            },
+            {
+              "triplet": "90ee90",
+              "name": "Light green"
+            },
+            {
+              "triplet": "f0e68c",
+              "name": "Light khaki"
+            },
+            {
+              "triplet": "b19cd9",
+              "name": "Light pastel purple"
+            },
+            {
+              "triplet": "ffb6c1",
+              "name": "Light pink"
+            },
+            {
+              "triplet": "ffa07a",
+              "name": "Light salmon"
+            },
+            {
+              "triplet": "ff9999",
+              "name": "Light salmon pink"
+            },
+            {
+              "triplet": "20b2aa",
+              "name": "Light sea green"
+            },
+            {
+              "triplet": "87cefa",
+              "name": "Light sky blue"
+            },
+            {
+              "triplet": "778899",
+              "name": "Light slate gray"
+            },
+            {
+              "triplet": "b38b6d",
+              "name": "Light taupe"
+            },
+            {
+              "triplet": "ffffed",
+              "name": "Light yellow"
+            },
+            {
+              "triplet": "c8a2c8",
+              "name": "Lilac"
+            },
+            {
+              "triplet": "bfff00",
+              "name": "Lime"
+            },
+            {
+              "triplet": "32cd32",
+              "name": "Lime green"
+            },
+            {
+              "triplet": "195905",
+              "name": "Lincoln green"
+            },
+            {
+              "triplet": "faf0e6",
+              "name": "Linen"
+            },
+            {
+              "triplet": "c19a6b",
+              "name": "Lion"
+            },
+            {
+              "triplet": "534b4f",
+              "name": "Liver"
+            },
+            {
+              "triplet": "e62020",
+              "name": "Lust"
+            },
+            {
+              "triplet": "18453b",
+              "name": "MSU Green"
+            },
+            {
+              "triplet": "ffbd88",
+              "name": "Macaroni and Cheese"
+            },
+            {
+              "triplet": "ff00ff",
+              "name": "Magenta"
+            },
+            {
+              "triplet": "aaf0d1",
+              "name": "Magic mint"
+            },
+            {
+              "triplet": "f8f4ff",
+              "name": "Magnolia"
+            },
+            {
+              "triplet": "c04000",
+              "name": "Mahogany"
+            },
+            {
+              "triplet": "fbec5d",
+              "name": "Maize"
+            },
+            {
+              "triplet": "6050dc",
+              "name": "Majorelle Blue"
+            },
+            {
+              "triplet": "0bda51",
+              "name": "Malachite"
+            },
+            {
+              "triplet": "979aaa",
+              "name": "Manatee"
+            },
+            {
+              "triplet": "ff8243",
+              "name": "Mango Tango"
+            },
+            {
+              "triplet": "74c365",
+              "name": "Mantis"
+            },
+            {
+              "triplet": "800000",
+              "name": "Maroon"
+            },
+            {
+              "triplet": "e0b0ff",
+              "name": "Mauve"
+            },
+            {
+              "triplet": "915f6d",
+              "name": "Mauve taupe"
+            },
+            {
+              "triplet": "ef98aa",
+              "name": "Mauvelous"
+            },
+            {
+              "triplet": "73c2fb",
+              "name": "Maya blue"
+            },
+            {
+              "triplet": "e5b73b",
+              "name": "Meat brown"
+            },
+            {
+              "triplet": "0067a5",
+              "name": "Medium Persian blue"
+            },
+            {
+              "triplet": "66ddaa",
+              "name": "Medium aquamarine"
+            },
+            {
+              "triplet": "0000cd",
+              "name": "Medium blue"
+            },
+            {
+              "triplet": "e2062c",
+              "name": "Medium candy apple red"
+            },
+            {
+              "triplet": "af4035",
+              "name": "Medium carmine"
+            },
+            {
+              "triplet": "f3e5ab",
+              "name": "Medium champagne"
+            },
+            {
+              "triplet": "035096",
+              "name": "Medium electric blue"
+            },
+            {
+              "triplet": "1c352d",
+              "name": "Medium jungle green"
+            },
+            {
+              "triplet": "dda0dd",
+              "name": "Medium lavender magenta"
+            },
+            {
+              "triplet": "ba55d3",
+              "name": "Medium orchid"
+            },
+            {
+              "triplet": "9370db",
+              "name": "Medium purple"
+            },
+            {
+              "triplet": "bb3385",
+              "name": "Medium red violet"
+            },
+            {
+              "triplet": "3cb371",
+              "name": "Medium sea green"
+            },
+            {
+              "triplet": "7b68ee",
+              "name": "Medium slate blue"
+            },
+            {
+              "triplet": "c9dc87",
+              "name": "Medium spring bud"
+            },
+            {
+              "triplet": "00fa9a",
+              "name": "Medium spring green"
+            },
+            {
+              "triplet": "674c47",
+              "name": "Medium taupe"
+            },
+            {
+              "triplet": "0054b4",
+              "name": "Medium teal blue"
+            },
+            {
+              "triplet": "48d1cc",
+              "name": "Medium turquoise"
+            },
+            {
+              "triplet": "c71585",
+              "name": "Medium violet red"
+            },
+            {
+              "triplet": "fdbcb4",
+              "name": "Melon"
+            },
+            {
+              "triplet": "191970",
+              "name": "Midnight blue"
+            },
+            {
+              "triplet": "004953",
+              "name": "Midnight green"
+            },
+            {
+              "triplet": "ffc40c",
+              "name": "Mikado yellow"
+            },
+            {
+              "triplet": "3eb489",
+              "name": "Mint"
+            },
+            {
+              "triplet": "f5fffa",
+              "name": "Mint cream"
+            },
+            {
+              "triplet": "98ff98",
+              "name": "Mint green"
+            },
+            {
+              "triplet": "ffe4e1",
+              "name": "Misty rose"
+            },
+            {
+              "triplet": "faebd7",
+              "name": "Moccasin"
+            },
+            {
+              "triplet": "967117",
+              "name": "Mode beige"
+            },
+            {
+              "triplet": "73a9c2",
+              "name": "Moonstone blue"
+            },
+            {
+              "triplet": "ae0c00",
+              "name": "Mordant red 19"
+            },
+            {
+              "triplet": "addfad",
+              "name": "Moss green"
+            },
+            {
+              "triplet": "30ba8f",
+              "name": "Mountain Meadow"
+            },
+            {
+              "triplet": "997a8d",
+              "name": "Mountbatten pink"
+            },
+            {
+              "triplet": "c54b8c",
+              "name": "Mulberry"
+            },
+            {
+              "triplet": "f2f3f4",
+              "name": "Munsell"
+            },
+            {
+              "triplet": "ffdb58",
+              "name": "Mustard"
+            },
+            {
+              "triplet": "21421e",
+              "name": "Myrtle"
+            },
+            {
+              "triplet": "f6adc6",
+              "name": "Nadeshiko pink"
+            },
+            {
+              "triplet": "2a8000",
+              "name": "Napier green"
+            },
+            {
+              "triplet": "fada5e",
+              "name": "Naples yellow"
+            },
+            {
+              "triplet": "ffdead",
+              "name": "Navajo white"
+            },
+            {
+              "triplet": "000080",
+              "name": "Navy blue"
+            },
+            {
+              "triplet": "ffa343",
+              "name": "Neon Carrot"
+            },
+            {
+              "triplet": "fe59c2",
+              "name": "Neon fuchsia"
+            },
+            {
+              "triplet": "39ff14",
+              "name": "Neon green"
+            },
+            {
+              "triplet": "a4dded",
+              "name": "Non-photo blue"
+            },
+            {
+              "triplet": "059033",
+              "name": "North Texas Green"
+            },
+            {
+              "triplet": "0077be",
+              "name": "Ocean Boat Blue"
+            },
+            {
+              "triplet": "cc7722",
+              "name": "Ochre"
+            },
+            {
+              "triplet": "008000",
+              "name": "Office green"
+            },
+            {
+              "triplet": "cfb53b",
+              "name": "Old gold"
+            },
+            {
+              "triplet": "fdf5e6",
+              "name": "Old lace"
+            },
+            {
+              "triplet": "796878",
+              "name": "Old lavender"
+            },
+            {
+              "triplet": "673147",
+              "name": "Old mauve"
+            },
+            {
+              "triplet": "c08081",
+              "name": "Old rose"
+            },
+            {
+              "triplet": "808000",
+              "name": "Olive"
+            },
+            {
+              "triplet": "6b8e23",
+              "name": "Olive Drab"
+            },
+            {
+              "triplet": "bab86c",
+              "name": "Olive Green"
+            },
+            {
+              "triplet": "9ab973",
+              "name": "Olivine"
+            },
+            {
+              "triplet": "0f0f0f",
+              "name": "Onyx"
+            },
+            {
+              "triplet": "b784a7",
+              "name": "Opera mauve"
+            },
+            {
+              "triplet": "ffa500",
+              "name": "Orange"
+            },
+            {
+              "triplet": "f8d568",
+              "name": "Orange Yellow"
+            },
+            {
+              "triplet": "ff9f00",
+              "name": "Orange peel"
+            },
+            {
+              "triplet": "ff4500",
+              "name": "Orange red"
+            },
+            {
+              "triplet": "da70d6",
+              "name": "Orchid"
+            },
+            {
+              "triplet": "654321",
+              "name": "Otter brown"
+            },
+            {
+              "triplet": "414a4c",
+              "name": "Outer Space"
+            },
+            {
+              "triplet": "ff6e4a",
+              "name": "Outrageous Orange"
+            },
+            {
+              "triplet": "002147",
+              "name": "Oxford Blue"
+            },
+            {
+              "triplet": "1ca9c9",
+              "name": "Pacific Blue"
+            },
+            {
+              "triplet": "006600",
+              "name": "Pakistan green"
+            },
+            {
+              "triplet": "273be2",
+              "name": "Palatinate blue"
+            },
+            {
+              "triplet": "682860",
+              "name": "Palatinate purple"
+            },
+            {
+              "triplet": "bcd4e6",
+              "name": "Pale aqua"
+            },
+            {
+              "triplet": "afeeee",
+              "name": "Pale blue"
+            },
+            {
+              "triplet": "987654",
+              "name": "Pale brown"
+            },
+            {
+              "triplet": "af4035",
+              "name": "Pale carmine"
+            },
+            {
+              "triplet": "9bc4e2",
+              "name": "Pale cerulean"
+            },
+            {
+              "triplet": "ddadaf",
+              "name": "Pale chestnut"
+            },
+            {
+              "triplet": "da8a67",
+              "name": "Pale copper"
+            },
+            {
+              "triplet": "abcdef",
+              "name": "Pale cornflower blue"
+            },
+            {
+              "triplet": "e6be8a",
+              "name": "Pale gold"
+            },
+            {
+              "triplet": "eee8aa",
+              "name": "Pale goldenrod"
+            },
+            {
+              "triplet": "98fb98",
+              "name": "Pale green"
+            },
+            {
+              "triplet": "dcd0ff",
+              "name": "Pale lavender"
+            },
+            {
+              "triplet": "f984e5",
+              "name": "Pale magenta"
+            },
+            {
+              "triplet": "fadadd",
+              "name": "Pale pink"
+            },
+            {
+              "triplet": "dda0dd",
+              "name": "Pale plum"
+            },
+            {
+              "triplet": "db7093",
+              "name": "Pale red violet"
+            },
+            {
+              "triplet": "96ded1",
+              "name": "Pale robin egg blue"
+            },
+            {
+              "triplet": "c9c0bb",
+              "name": "Pale silver"
+            },
+            {
+              "triplet": "ecebbd",
+              "name": "Pale spring bud"
+            },
+            {
+              "triplet": "bc987e",
+              "name": "Pale taupe"
+            },
+            {
+              "triplet": "db7093",
+              "name": "Pale violet red"
+            },
+            {
+              "triplet": "78184a",
+              "name": "Pansy purple"
+            },
+            {
+              "triplet": "ffefd5",
+              "name": "Papaya whip"
+            },
+            {
+              "triplet": "50c878",
+              "name": "Paris Green"
+            },
+            {
+              "triplet": "aec6cf",
+              "name": "Pastel blue"
+            },
+            {
+              "triplet": "836953",
+              "name": "Pastel brown"
+            },
+            {
+              "triplet": "cfcfc4",
+              "name": "Pastel gray"
+            },
+            {
+              "triplet": "77dd77",
+              "name": "Pastel green"
+            },
+            {
+              "triplet": "f49ac2",
+              "name": "Pastel magenta"
+            },
+            {
+              "triplet": "ffb347",
+              "name": "Pastel orange"
+            },
+            {
+              "triplet": "ffd1dc",
+              "name": "Pastel pink"
+            },
+            {
+              "triplet": "b39eb5",
+              "name": "Pastel purple"
+            },
+            {
+              "triplet": "ff6961",
+              "name": "Pastel red"
+            },
+            {
+              "triplet": "cb99c9",
+              "name": "Pastel violet"
+            },
+            {
+              "triplet": "fdfd96",
+              "name": "Pastel yellow"
+            },
+            {
+              "triplet": "800080",
+              "name": "Patriarch"
+            },
+            {
+              "triplet": "536878",
+              "name": "Payne grey"
+            },
+            {
+              "triplet": "ffe5b4",
+              "name": "Peach"
+            },
+            {
+              "triplet": "ffdab9",
+              "name": "Peach puff"
+            },
+            {
+              "triplet": "fadfad",
+              "name": "Peach yellow"
+            },
+            {
+              "triplet": "d1e231",
+              "name": "Pear"
+            },
+            {
+              "triplet": "eae0c8",
+              "name": "Pearl"
+            },
+            {
+              "triplet": "88d8c0",
+              "name": "Pearl Aqua"
+            },
+            {
+              "triplet": "e6e200",
+              "name": "Peridot"
+            },
+            {
+              "triplet": "ccccff",
+              "name": "Periwinkle"
+            },
+            {
+              "triplet": "1c39bb",
+              "name": "Persian blue"
+            },
+            {
+              "triplet": "32127a",
+              "name": "Persian indigo"
+            },
+            {
+              "triplet": "d99058",
+              "name": "Persian orange"
+            },
+            {
+              "triplet": "f77fbe",
+              "name": "Persian pink"
+            },
+            {
+              "triplet": "701c1c",
+              "name": "Persian plum"
+            },
+            {
+              "triplet": "cc3333",
+              "name": "Persian red"
+            },
+            {
+              "triplet": "fe28a2",
+              "name": "Persian rose"
+            },
+            {
+              "triplet": "df00ff",
+              "name": "Phlox"
+            },
+            {
+              "triplet": "000f89",
+              "name": "Phthalo blue"
+            },
+            {
+              "triplet": "123524",
+              "name": "Phthalo green"
+            },
+            {
+              "triplet": "fddde6",
+              "name": "Piggy pink"
+            },
+            {
+              "triplet": "01796f",
+              "name": "Pine green"
+            },
+            {
+              "triplet": "ffc0cb",
+              "name": "Pink"
+            },
+            {
+              "triplet": "fc74fd",
+              "name": "Pink Flamingo"
+            },
+            {
+              "triplet": "f78fa7",
+              "name": "Pink Sherbet"
+            },
+            {
+              "triplet": "e7accf",
+              "name": "Pink pearl"
+            },
+            {
+              "triplet": "93c572",
+              "name": "Pistachio"
+            },
+            {
+              "triplet": "e5e4e2",
+              "name": "Platinum"
+            },
+            {
+              "triplet": "dda0dd",
+              "name": "Plum"
+            },
+            {
+              "triplet": "ff5a36",
+              "name": "Portland Orange"
+            },
+            {
+              "triplet": "b0e0e6",
+              "name": "Powder blue"
+            },
+            {
+              "triplet": "ff8f00",
+              "name": "Princeton orange"
+            },
+            {
+              "triplet": "003153",
+              "name": "Prussian blue"
+            },
+            {
+              "triplet": "df00ff",
+              "name": "Psychedelic purple"
+            },
+            {
+              "triplet": "cc8899",
+              "name": "Puce"
+            },
+            {
+              "triplet": "ff7518",
+              "name": "Pumpkin"
+            },
+            {
+              "triplet": "800080",
+              "name": "Purple"
+            },
+            {
+              "triplet": "69359c",
+              "name": "Purple Heart"
+            },
+            {
+              "triplet": "9d81ba",
+              "name": "Purple Mountain's Majesty"
+            },
+            {
+              "triplet": "9678b6",
+              "name": "Purple mountain majesty"
+            },
+            {
+              "triplet": "fe4eda",
+              "name": "Purple pizzazz"
+            },
+            {
+              "triplet": "50404d",
+              "name": "Purple taupe"
+            },
+            {
+              "triplet": "5d8aa8",
+              "name": "Rackley"
+            },
+            {
+              "triplet": "ff355e",
+              "name": "Radical Red"
+            },
+            {
+              "triplet": "e30b5d",
+              "name": "Raspberry"
+            },
+            {
+              "triplet": "915f6d",
+              "name": "Raspberry glace"
+            },
+            {
+              "triplet": "e25098",
+              "name": "Raspberry pink"
+            },
+            {
+              "triplet": "b3446c",
+              "name": "Raspberry rose"
+            },
+            {
+              "triplet": "d68a59",
+              "name": "Raw Sienna"
+            },
+            {
+              "triplet": "ff33cc",
+              "name": "Razzle dazzle rose"
+            },
+            {
+              "triplet": "e3256b",
+              "name": "Razzmatazz"
+            },
+            {
+              "triplet": "ff0000",
+              "name": "Red"
+            },
+            {
+              "triplet": "ff5349",
+              "name": "Red Orange"
+            },
+            {
+              "triplet": "a52a2a",
+              "name": "Red brown"
+            },
+            {
+              "triplet": "c71585",
+              "name": "Red violet"
+            },
+            {
+              "triplet": "004040",
+              "name": "Rich black"
+            },
+            {
+              "triplet": "d70040",
+              "name": "Rich carmine"
+            },
+            {
+              "triplet": "0892d0",
+              "name": "Rich electric blue"
+            },
+            {
+              "triplet": "b666d2",
+              "name": "Rich lilac"
+            },
+            {
+              "triplet": "b03060",
+              "name": "Rich maroon"
+            },
+            {
+              "triplet": "414833",
+              "name": "Rifle green"
+            },
+            {
+              "triplet": "1fcecb",
+              "name": "Robin's Egg Blue"
+            },
+            {
+              "triplet": "ff007f",
+              "name": "Rose"
+            },
+            {
+              "triplet": "f9429e",
+              "name": "Rose bonbon"
+            },
+            {
+              "triplet": "674846",
+              "name": "Rose ebony"
+            },
+            {
+              "triplet": "b76e79",
+              "name": "Rose gold"
+            },
+            {
+              "triplet": "e32636",
+              "name": "Rose madder"
+            },
+            {
+              "triplet": "ff66cc",
+              "name": "Rose pink"
+            },
+            {
+              "triplet": "aa98a9",
+              "name": "Rose quartz"
+            },
+            {
+              "triplet": "905d5d",
+              "name": "Rose taupe"
+            },
+            {
+              "triplet": "ab4e52",
+              "name": "Rose vale"
+            },
+            {
+              "triplet": "65000b",
+              "name": "Rosewood"
+            },
+            {
+              "triplet": "d40000",
+              "name": "Rosso corsa"
+            },
+            {
+              "triplet": "bc8f8f",
+              "name": "Rosy brown"
+            },
+            {
+              "triplet": "0038a8",
+              "name": "Royal azure"
+            },
+            {
+              "triplet": "4169e1",
+              "name": "Royal blue"
+            },
+            {
+              "triplet": "ca2c92",
+              "name": "Royal fuchsia"
+            },
+            {
+              "triplet": "7851a9",
+              "name": "Royal purple"
+            },
+            {
+              "triplet": "e0115f",
+              "name": "Ruby"
+            },
+            {
+              "triplet": "ff0028",
+              "name": "Ruddy"
+            },
+            {
+              "triplet": "bb6528",
+              "name": "Ruddy brown"
+            },
+            {
+              "triplet": "e18e96",
+              "name": "Ruddy pink"
+            },
+            {
+              "triplet": "a81c07",
+              "name": "Rufous"
+            },
+            {
+              "triplet": "80461b",
+              "name": "Russet"
+            },
+            {
+              "triplet": "b7410e",
+              "name": "Rust"
+            },
+            {
+              "triplet": "00563f",
+              "name": "Sacramento State green"
+            },
+            {
+              "triplet": "8b4513",
+              "name": "Saddle brown"
+            },
+            {
+              "triplet": "ff6700",
+              "name": "Safety orange"
+            },
+            {
+              "triplet": "f4c430",
+              "name": "Saffron"
+            },
+            {
+              "triplet": "23297a",
+              "name": "Saint Patrick Blue"
+            },
+            {
+              "triplet": "ff8c69",
+              "name": "Salmon"
+            },
+            {
+              "triplet": "ff91a4",
+              "name": "Salmon pink"
+            },
+            {
+              "triplet": "c2b280",
+              "name": "Sand"
+            },
+            {
+              "triplet": "967117",
+              "name": "Sand dune"
+            },
+            {
+              "triplet": "ecd540",
+              "name": "Sandstorm"
+            },
+            {
+              "triplet": "f4a460",
+              "name": "Sandy brown"
+            },
+            {
+              "triplet": "967117",
+              "name": "Sandy taupe"
+            },
+            {
+              "triplet": "507d2a",
+              "name": "Sap green"
+            },
+            {
+              "triplet": "0f52ba",
+              "name": "Sapphire"
+            },
+            {
+              "triplet": "cba135",
+              "name": "Satin sheen gold"
+            },
+            {
+              "triplet": "ff2400",
+              "name": "Scarlet"
+            },
+            {
+              "triplet": "ffd800",
+              "name": "School bus yellow"
+            },
+            {
+              "triplet": "76ff7a",
+              "name": "Screamin Green"
+            },
+            {
+              "triplet": "006994",
+              "name": "Sea blue"
+            },
+            {
+              "triplet": "2e8b57",
+              "name": "Sea green"
+            },
+            {
+              "triplet": "321414",
+              "name": "Seal brown"
+            },
+            {
+              "triplet": "fff5ee",
+              "name": "Seashell"
+            },
+            {
+              "triplet": "ffba00",
+              "name": "Selective yellow"
+            },
+            {
+              "triplet": "704214",
+              "name": "Sepia"
+            },
+            {
+              "triplet": "8a795d",
+              "name": "Shadow"
+            },
+            {
+              "triplet": "45cea2",
+              "name": "Shamrock"
+            },
+            {
+              "triplet": "009e60",
+              "name": "Shamrock green"
+            },
+            {
+              "triplet": "fc0fc0",
+              "name": "Shocking pink"
+            },
+            {
+              "triplet": "882d17",
+              "name": "Sienna"
+            },
+            {
+              "triplet": "c0c0c0",
+              "name": "Silver"
+            },
+            {
+              "triplet": "cb410b",
+              "name": "Sinopia"
+            },
+            {
+              "triplet": "007474",
+              "name": "Skobeloff"
+            },
+            {
+              "triplet": "87ceeb",
+              "name": "Sky blue"
+            },
+            {
+              "triplet": "cf71af",
+              "name": "Sky magenta"
+            },
+            {
+              "triplet": "6a5acd",
+              "name": "Slate blue"
+            },
+            {
+              "triplet": "708090",
+              "name": "Slate gray"
+            },
+            {
+              "triplet": "003399",
+              "name": "Smalt"
+            },
+            {
+              "triplet": "933d41",
+              "name": "Smokey topaz"
+            },
+            {
+              "triplet": "100c08",
+              "name": "Smoky black"
+            },
+            {
+              "triplet": "fffafa",
+              "name": "Snow"
+            },
+            {
+              "triplet": "0fc0fc",
+              "name": "Spiro Disco Ball"
+            },
+            {
+              "triplet": "a7fc00",
+              "name": "Spring bud"
+            },
+            {
+              "triplet": "00ff7f",
+              "name": "Spring green"
+            },
+            {
+              "triplet": "4682b4",
+              "name": "Steel blue"
+            },
+            {
+              "triplet": "fada5e",
+              "name": "Stil de grain yellow"
+            },
+            {
+              "triplet": "990000",
+              "name": "Stizza"
+            },
+            {
+              "triplet": "008080",
+              "name": "Stormcloud"
+            },
+            {
+              "triplet": "e4d96f",
+              "name": "Straw"
+            },
+            {
+              "triplet": "ffcc33",
+              "name": "Sunglow"
+            },
+            {
+              "triplet": "fad6a5",
+              "name": "Sunset"
+            },
+            {
+              "triplet": "fd5e53",
+              "name": "Sunset Orange"
+            },
+            {
+              "triplet": "d2b48c",
+              "name": "Tan"
+            },
+            {
+              "triplet": "f94d00",
+              "name": "Tangelo"
+            },
+            {
+              "triplet": "f28500",
+              "name": "Tangerine"
+            },
+            {
+              "triplet": "ffcc00",
+              "name": "Tangerine yellow"
+            },
+            {
+              "triplet": "483c32",
+              "name": "Taupe"
+            },
+            {
+              "triplet": "8b8589",
+              "name": "Taupe gray"
+            },
+            {
+              "triplet": "cd5700",
+              "name": "Tawny"
+            },
+            {
+              "triplet": "d0f0c0",
+              "name": "Tea green"
+            },
+            {
+              "triplet": "f4c2c2",
+              "name": "Tea rose"
+            },
+            {
+              "triplet": "008080",
+              "name": "Teal"
+            },
+            {
+              "triplet": "367588",
+              "name": "Teal blue"
+            },
+            {
+              "triplet": "006d5b",
+              "name": "Teal green"
+            },
+            {
+              "triplet": "e2725b",
+              "name": "Terra cotta"
+            },
+            {
+              "triplet": "d8bfd8",
+              "name": "Thistle"
+            },
+            {
+              "triplet": "de6fa1",
+              "name": "Thulian pink"
+            },
+            {
+              "triplet": "fc89ac",
+              "name": "Tickle Me Pink"
+            },
+            {
+              "triplet": "0abab5",
+              "name": "Tiffany Blue"
+            },
+            {
+              "triplet": "e08d3c",
+              "name": "Tiger eye"
+            },
+            {
+              "triplet": "dbd7d2",
+              "name": "Timberwolf"
+            },
+            {
+              "triplet": "eee600",
+              "name": "Titanium yellow"
+            },
+            {
+              "triplet": "ff6347",
+              "name": "Tomato"
+            },
+            {
+              "triplet": "746cc0",
+              "name": "Toolbox"
+            },
+            {
+              "triplet": "ffc87c",
+              "name": "Topaz"
+            },
+            {
+              "triplet": "fd0e35",
+              "name": "Tractor red"
+            },
+            {
+              "triplet": "808080",
+              "name": "Trolley Grey"
+            },
+            {
+              "triplet": "00755e",
+              "name": "Tropical rain forest"
+            },
+            {
+              "triplet": "0073cf",
+              "name": "True Blue"
+            },
+            {
+              "triplet": "417dc1",
+              "name": "Tufts Blue"
+            },
+            {
+              "triplet": "deaa88",
+              "name": "Tumbleweed"
+            },
+            {
+              "triplet": "b57281",
+              "name": "Turkish rose"
+            },
+            {
+              "triplet": "30d5c8",
+              "name": "Turquoise"
+            },
+            {
+              "triplet": "00ffef",
+              "name": "Turquoise blue"
+            },
+            {
+              "triplet": "a0d6b4",
+              "name": "Turquoise green"
+            },
+            {
+              "triplet": "66424d",
+              "name": "Tuscan red"
+            },
+            {
+              "triplet": "8a496b",
+              "name": "Twilight lavender"
+            },
+            {
+              "triplet": "66023c",
+              "name": "Tyrian purple"
+            },
+            {
+              "triplet": "0033aa",
+              "name": "UA blue"
+            },
+            {
+              "triplet": "d9004c",
+              "name": "UA red"
+            },
+            {
+              "triplet": "536895",
+              "name": "UCLA Blue"
+            },
+            {
+              "triplet": "ffb300",
+              "name": "UCLA Gold"
+            },
+            {
+              "triplet": "3cd070",
+              "name": "UFO Green"
+            },
+            {
+              "triplet": "014421",
+              "name": "UP Forest green"
+            },
+            {
+              "triplet": "7b1113",
+              "name": "UP Maroon"
+            },
+            {
+              "triplet": "990000",
+              "name": "USC Cardinal"
+            },
+            {
+              "triplet": "ffcc00",
+              "name": "USC Gold"
+            },
+            {
+              "triplet": "8878c3",
+              "name": "Ube"
+            },
+            {
+              "triplet": "ff6fff",
+              "name": "Ultra pink"
+            },
+            {
+              "triplet": "120a8f",
+              "name": "Ultramarine"
+            },
+            {
+              "triplet": "4166f5",
+              "name": "Ultramarine blue"
+            },
+            {
+              "triplet": "635147",
+              "name": "Umber"
+            },
+            {
+              "triplet": "5b92e5",
+              "name": "United Nations blue"
+            },
+            {
+              "triplet": "b78727",
+              "name": "University of California Gold"
+            },
+            {
+              "triplet": "ffff66",
+              "name": "Unmellow Yellow"
+            },
+            {
+              "triplet": "ae2029",
+              "name": "Upsdell red"
+            },
+            {
+              "triplet": "e1ad21",
+              "name": "Urobilin"
+            },
+            {
+              "triplet": "d3003f",
+              "name": "Utah Crimson"
+            },
+            {
+              "triplet": "f3e5ab",
+              "name": "Vanilla"
+            },
+            {
+              "triplet": "c5b358",
+              "name": "Vegas gold"
+            },
+            {
+              "triplet": "c80815",
+              "name": "Venetian red"
+            },
+            {
+              "triplet": "43b3ae",
+              "name": "Verdigris"
+            },
+            {
+              "triplet": "e34234",
+              "name": "Vermilion"
+            },
+            {
+              "triplet": "a020f0",
+              "name": "Veronica"
+            },
+            {
+              "triplet": "ee82ee",
+              "name": "Violet"
+            },
+            {
+              "triplet": "324ab2",
+              "name": "Violet Blue"
+            },
+            {
+              "triplet": "f75394",
+              "name": "Violet Red"
+            },
+            {
+              "triplet": "40826d",
+              "name": "Viridian"
+            },
+            {
+              "triplet": "922724",
+              "name": "Vivid auburn"
+            },
+            {
+              "triplet": "9f1d35",
+              "name": "Vivid burgundy"
+            },
+            {
+              "triplet": "da1d81",
+              "name": "Vivid cerise"
+            },
+            {
+              "triplet": "ffa089",
+              "name": "Vivid tangerine"
+            },
+            {
+              "triplet": "9f00ff",
+              "name": "Vivid violet"
+            },
+            {
+              "triplet": "004242",
+              "name": "Warm black"
+            },
+            {
+              "triplet": "00ffff",
+              "name": "Waterspout"
+            },
+            {
+              "triplet": "645452",
+              "name": "Wenge"
+            },
+            {
+              "triplet": "f5deb3",
+              "name": "Wheat"
+            },
+            {
+              "triplet": "ffffff",
+              "name": "White"
+            },
+            {
+              "triplet": "f5f5f5",
+              "name": "White smoke"
+            },
+            {
+              "triplet": "ff43a4",
+              "name": "Wild Strawberry"
+            },
+            {
+              "triplet": "fc6c85",
+              "name": "Wild Watermelon"
+            },
+            {
+              "triplet": "a2add0",
+              "name": "Wild blue yonder"
+            },
+            {
+              "triplet": "722f37",
+              "name": "Wine"
+            },
+            {
+              "triplet": "c9a0dc",
+              "name": "Wisteria"
+            },
+            {
+              "triplet": "738678",
+              "name": "Xanadu"
+            },
+            {
+              "triplet": "0f4d92",
+              "name": "Yale Blue"
+            },
+            {
+              "triplet": "ffff00",
+              "name": "Yellow"
+            },
+            {
+              "triplet": "ffae42",
+              "name": "Yellow Orange"
+            },
+            {
+              "triplet": "9acd32",
+              "name": "Yellow green"
+            },
+            {
+              "triplet": "0014a8",
+              "name": "Zaffre"
+            },
+            {
+              "triplet": "2c1608",
+              "name": "Zinnwaldite brown"
+            }
+          ]
+        }
+    ]
+}
