@@ -6,5 +6,13 @@
     {
         "name": "Not evil",
         "colors": ["4285f4", "0f9d58", "f4b400", "db4437", "ffffff"]
+    },
+    {
+        "name": "Sunset",
+        "colors": ["FFBF0D", "000000", "FF8100", "E85B0C", "FF400D"]
+    },
+    {
+        "name": "Candy shoppe",
+        "colors": ["b03b53", "701e39", "eed39a", "c2af91", "6b5043"]
     }
 ]

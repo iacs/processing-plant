@@ -16,11 +16,15 @@ JSONArray paletteData;
 ArrayList<String> paletteNames;
 ArrayList<String[]> paletteSwatches;
 
+color[] swatch;
+boolean paletteLoaded = false;
+
 void setup() {
     size(1280, 720);
 
     paletteNames = new ArrayList<String>();
     paletteSwatches = new ArrayList<String[]>();
+    swatch = new color[5];
 
     cp5 = new ControlP5(this);
 
@@ -40,26 +44,22 @@ void setup() {
 void draw() {
     background(200);
 
-
     if (hs.getHover()) {
         palettePreview(hs.getItemHover());
     }
-}
 
-void panel(String stringuescudo) {
-  textSize(32);
-  fill(#000000);
-  text(stringuescudo, 30, 330);
-}
-
-void simplePanel(int index) {
-    if (index >= 0 && index < paletteNames.size()) {
-        PGraphics panel = createGraphics(200, 150);
-        panel.beginDraw();
-        fill(#FF0000);
-        rect(50, 50, 200, 50);
-        panel.endDraw();
-        image(panel, 200, 200, 200, 150);
+    if (paletteLoaded) {
+        noStroke();
+        fill(swatch[0]);
+        rect(200, 200, 200, 200);
+        fill(swatch[1]);
+        rect(400, 200, 200, 200);
+        fill(swatch[2]);
+        rect(600, 200, 200, 200);
+        fill(swatch[3]);
+        rect(800, 200, 200, 200);
+        fill(swatch[4]);
+        rect(1000, 200, 200, 200);
     }
 }
 
@@ -79,6 +79,17 @@ void palettePreview(int index) {
 
         image(paletteCard, xpos, pmouseY);
     }
+}
+
+void palettes(int n) {
+    println("n: " + n);
+    String[] triplets = paletteSwatches.get(n);
+    swatch[0] = color(unhex("FF" + triplets[0]));
+    swatch[1] = color(unhex("FF" + triplets[1]));
+    swatch[2] = color(unhex("FF" + triplets[2]));
+    swatch[3] = color(unhex("FF" + triplets[3]));
+    swatch[4] = color(unhex("FF" + triplets[4]));
+    paletteLoaded = true;
 }
 
 PGraphics colorStrip(int index) {
@@ -102,7 +113,7 @@ void updatePalettes() {
 
     for (int i = 0; i < paletteData.size(); i++) {
         JSONObject p = paletteData.getJSONObject(i);
-        println("name: "+p.getString("name"));
+        // println("name: "+p.getString("name"));
         paletteNames.add(p.getString("name"));
         paletteSwatches.add(p.getJSONArray("colors").getStringArray());
     }
