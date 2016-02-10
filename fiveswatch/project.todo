@@ -1,0 +1,19 @@
+ [ ] Load color book
+ [ ] Color book sort - alphabetic
+ [ ] Color book sort - chroma
+ [ ] Color picker - wheel ui
+ [ ] Color picker - book ui
+ [ ] Palette gen modes - 5
+ [ ] Palette gen modes - 3+2
+ [ ] Palette generation - monochrome
+ [ ] Palette generation - complementary (opposite)
+ [ ] Palette generation - analogous (adjacent)
+ [ ] Palette generation - triadic
+ [ ] Palette generation - split-complementary
+ [ ] Palette generation - tetradic
+ [ ] Palette generation - square tetradic
+ [ ] Palette refinement - chroma
+ [ ] Palette refinement - tint
+ [ ] Palette refinement - shade
+ [x] Load palette @done (2016-02-09 18:30)
+ [ ] Save palette
