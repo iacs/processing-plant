@@ -49,17 +49,9 @@ void draw() {
     }
 
     if (paletteLoaded) {
-        noStroke();
-        fill(swatch[0]);
-        rect(200, 200, 200, 200);
-        fill(swatch[1]);
-        rect(400, 200, 200, 200);
-        fill(swatch[2]);
-        rect(600, 200, 200, 200);
-        fill(swatch[3]);
-        rect(800, 200, 200, 200);
-        fill(swatch[4]);
-        rect(1000, 200, 200, 200);
+        PGraphics mainPalette = drawMainPalette();
+        imageMode(CENTER);
+        image(mainPalette, width/2, height/2);
     }
 }
 
@@ -104,6 +96,26 @@ PGraphics colorStrip(int index) {
     strip.endDraw();
 
     return strip;
+}
+
+PGraphics drawMainPalette() {
+    PGraphics mainPalette = createGraphics(1000, 200);
+    
+    mainPalette.beginDraw();
+    mainPalette.noStroke();
+    mainPalette.fill(swatch[0]);
+    mainPalette.rect(0, 0, 200, 200);
+    mainPalette.fill(swatch[1]);
+    mainPalette.rect(200, 0, 200, 200);
+    mainPalette.fill(swatch[2]);
+    mainPalette.rect(400, 0, 200, 200);
+    mainPalette.fill(swatch[3]);
+    mainPalette.rect(600, 0, 200, 200);
+    mainPalette.fill(swatch[4]);
+    mainPalette.rect(800, 0, 200, 200);
+    mainPalette.endDraw();
+    
+    return mainPalette;
 }
 
 void updatePalettes() {
