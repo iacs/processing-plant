@@ -8,11 +8,27 @@
         "colors": ["4285f4", "0f9d58", "f4b400", "db4437", "ffffff"]
     },
     {
+        "name": "The Buggerous",
+        "colors": ["efdecd", "b38b6d", "e9d66b", "cc8899", "deaa88"]
+    },
+    {
         "name": "Sunset",
         "colors": ["FFBF0D", "000000", "FF8100", "E85B0C", "FF400D"]
     },
     {
         "name": "Candy shoppe",
         "colors": ["b03b53", "701e39", "eed39a", "c2af91", "6b5043"]
+    },
+    {
+        "name": "Orange Line",
+        "colors": ["000000", "cf5c36", "eee5e9", "7c7c7c", "efc88B"]
+    },
+    {
+        "name": "Oak Brook",
+        "colors": ["05668d", "427aa1", "ebf2fa", "679436", "a5be00"]
+    },
+    {
+        "name": "Peppermint",
+        "colors": ["ffffff", "81f4e1", "56cbf9", "ff729f", "d3c4d1"]
     }
 ]

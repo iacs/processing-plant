@@ -16,19 +16,33 @@ JSONArray paletteData;
 ArrayList<String> paletteNames;
 ArrayList<String[]> paletteSwatches;
 
+JSONObject colorBookRaw;
+HashMap<String, String> colorBook;
+ArrayList<String> colorNamesLoaded;
+String[] colorNames;
+
 color[] swatch;
 boolean paletteLoaded = false;
+boolean visualsCached = false;
+
+// Visuals
+PGraphics paletteBackground;
+PGraphics mainPalette;
 
 void setup() {
-    size(1280, 720);
+    size(1280, 720, P2D);
 
     paletteNames = new ArrayList<String>();
     paletteSwatches = new ArrayList<String[]>();
     swatch = new color[5];
+    colorNames = new String[5];
+    colorBook = new HashMap<String, String>();
+    colorNamesLoaded = new ArrayList<String>();
 
     cp5 = new ControlP5(this);
 
     updatePalettes();
+    updateDefaultColorbook();
 
     hs = new HoverScroll(cp5, "palettes");
     // hs.registerProperty("value");
@@ -39,20 +53,35 @@ void setup() {
         .setType(ScrollableList.LIST)
         .setOpen(false)
         .addItems(paletteNames);
+
+    cp5.addButton("openColorBook")
+        .setPosition(2*borderMargin, 2*borderMargin)
+        .setSize(dropdownWidth, dropdownItemHeight);
 }
 
 void draw() {
     background(200);
 
-    if (hs.getHover()) {
-        palettePreview(hs.getItemHover());
-    }
-
     if (paletteLoaded) {
-        PGraphics mainPalette = drawMainPalette();
+        generateVisuals();
+        paletteLoaded = false;
+    }
+    
+    if (visualsCached) {
+        background(paletteBackground);
         imageMode(CENTER);
         image(mainPalette, width/2, height/2);
     }
+
+    if (hs.getHover()) {
+        palettePreview(hs.getItemHover());
+    }
+}
+
+void generateVisuals() {
+    paletteBackground = drawPaletteBackground();
+    mainPalette = drawMainPalette();
+    visualsCached = true;
 }
 
 void palettePreview(int index) {
@@ -74,13 +103,28 @@ void palettePreview(int index) {
 }
 
 void palettes(int n) {
-    println("n: " + n);
+    // println("n: " + n);
+    visualsCached = false;
     String[] triplets = paletteSwatches.get(n);
     swatch[0] = color(unhex("FF" + triplets[0]));
     swatch[1] = color(unhex("FF" + triplets[1]));
     swatch[2] = color(unhex("FF" + triplets[2]));
     swatch[3] = color(unhex("FF" + triplets[3]));
     swatch[4] = color(unhex("FF" + triplets[4]));
+
+    // id colors
+    //colorNamesLoaded.clear();
+    for (int i = 0; i < triplets.length; i++) {
+        println("checking color: " + triplets[i]);
+        if (colorBook.containsKey(triplets[i])) {
+            println("Identified color");
+            colorNames[i] = colorBook.get(triplets[i]);
+        } else {
+            colorNames[i] = "";
+        }
+    }
+
+    // println("Idd colors: "+colorNamesLoaded);
     paletteLoaded = true;
 }
 
@@ -99,7 +143,7 @@ PGraphics colorStrip(int index) {
 }
 
 PGraphics drawMainPalette() {
-    PGraphics mainPalette = createGraphics(1000, 200);
+    PGraphics mainPalette = createGraphics(1000, 400);
     
     mainPalette.beginDraw();
     mainPalette.noStroke();
@@ -113,9 +157,42 @@ PGraphics drawMainPalette() {
     mainPalette.rect(600, 0, 200, 200);
     mainPalette.fill(swatch[4]);
     mainPalette.rect(800, 0, 200, 200);
+
+    mainPalette.fill(255, 255, 255);
+    mainPalette.rect(0, 220, 1000, 100);
+
+    mainPalette.fill(0, 0, 0);
+    mainPalette.textSize(16);
+    mainPalette.textAlign(CENTER);
+    for (int i = 0; i < 5; ++i) {
+        if (!colorNames[i].equals("")) {
+            mainPalette.text(colorNames[i], 10 + 200*i, 230, 200, 90);
+        }
+    }
+
     mainPalette.endDraw();
     
     return mainPalette;
+}
+
+PGraphics drawPaletteBackground() {
+    PGraphics paletteBackground = createGraphics(width, height);
+
+    int stepSize = paletteBackground.width / (swatch.length - 1);
+
+    paletteBackground.beginDraw();
+    paletteBackground.noFill();
+    for (int i = 0; i <= paletteBackground.width; i++) {
+        color startC = swatch[i/stepSize];
+        color endC   = swatch[min((i/stepSize)+1, swatch.length -1)];
+        float amt = (float) (i % stepSize) / stepSize;
+        color instantC = lerpColor(startC, endC, amt);
+        paletteBackground.stroke(instantC);
+        paletteBackground.line(i, 0, i, paletteBackground.height);
+    }
+    paletteBackground.endDraw();
+
+    return paletteBackground;
 }
 
 void updatePalettes() {
@@ -128,5 +205,29 @@ void updatePalettes() {
         // println("name: "+p.getString("name"));
         paletteNames.add(p.getString("name"));
         paletteSwatches.add(p.getJSONArray("colors").getStringArray());
+    }
+}
+
+JSONObject loadColorBook(String bookname) {
+    JSONObject colorLib = loadJSONObject("color_library.json");
+    JSONArray books = colorLib.getJSONArray("books");
+    for (int i = 0; i < books.size(); i++) {
+        JSONObject book = books.getJSONObject(i);
+        if (book.getString("name").equals(bookname)) {
+            return book;
+        }
+    }
+
+    return null;
+}
+
+void updateDefaultColorbook() {
+    colorBookRaw = loadColorBook("default");
+    colorBook.clear();
+
+    JSONArray bookColors = colorBookRaw.getJSONArray("colors");
+    for (int i = 0; i < bookColors.size(); i++) {
+        JSONObject c = bookColors.getJSONObject(i);
+        colorBook.put(c.getString("triplet"), c.getString("name"));
     }
 }
