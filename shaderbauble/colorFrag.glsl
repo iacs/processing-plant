@@ -14,7 +14,6 @@ attribute vec4 color;
 varying vec4 vertColor;
 
 uniform float time;
-uniform vec2 resolution;
 
 float hash(float n) {
     return fract(sin(n)*43758.5453123);

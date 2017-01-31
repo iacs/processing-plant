@@ -2,6 +2,8 @@ PShader colorShader;
 float cx;
 float cy;
 
+float time = 0.0;
+
 void setup() {
     size(640,360,P3D);
     noStroke();
@@ -24,6 +26,9 @@ void draw() {
     vertex(+cx, -cy);
     vertex(-cx, -cy);
     endShape();
+    
+    time += 0.01;
+    colorShader.set("time", time);
 }
 
 void keyPressed(){
